@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#contact-icon{
+    width: 50px;
+}
+
+::-webkit-scrollbar-track
+ {
+     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+     background-color: #F5F5F5;
+ }
+ 
+::-webkit-scrollbar
+ {
+     width: 10px;
+     background-color: #F5F5F5;
+ }
+ 
+::-webkit-scrollbar-thumb
+ {
+     background-color: #0ae;
+     
+     background-image: -webkit-gradient(linear, 0 0, 0 100%,
+                        color-stop(.5, rgba(255, 255, 255, .2)),
+                        color-stop(.5, transparent), to(transparent));
+ }
+ 
+.App {
+    background: url('../public/bg.jpg');
+    background-size: 100% 100%;
+}
+
+.cardContainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+
+}
+
+.cardContainer .card-details{
+    border-radius: 18px;
+    background-color:ghostwhite;
+}
+
+.cardContainer #card-title{
+    letter-spacing:1px;
+    font-weight: bold;
+    color: blueviolet;
+    font-size: 20px;
+}
+
+.cardContainer span{
+    font-size: 17px;
+}
+
+.cardContainer #label {
+    font-weight: bold;
+  
+
+}
+
+
+.add-contact-container, .edit-contact-container{
+    background: url('../public/bg.jpg'); 
+    background-size: 100% 100vh;
+    height: 100vh;
+    width: 100%;
+}
+
+.add-contact-title, .edit-contact-title{
+    padding-top: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.add-contact, .edit-contact{
+    margin-top: 100px;
+}
